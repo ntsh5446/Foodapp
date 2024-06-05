@@ -1,5 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+
+// defining a initail state of cart
 const CartSlice = createSlice({
   name: "cart",
   initialState: {
